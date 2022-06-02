@@ -97,3 +97,23 @@
 .statistic__content-text {
   @apply text-[13px] text-grey;
 }
+
+/* ===== FOOTER SECTION ===== */
+.footer__content-title {
+  @apply text-[20px] text-black font-bold mb-4;
+}
+.footer__content-list {
+  @apply flex flex-col gap-2;
+}
+.footer__content-link {
+  @apply text-[15px] text-grey hover:text-blue hover:underline;
+}
+.footer__content-text {
+  @apply text-[15px] text-grey leading-text mb-6;
+}
+.footer__content-socials {
+  @apply inline-flex items-center gap-6;
+}
+.footer__content-icon {
+  @apply inline-flex p-2 bg-grey bg-opacity-20 rounded-[.5rem] text-[1.3rem] text-grey transition-all duration-400 hover:bg-blue hover:text-white;
+}
