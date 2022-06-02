@@ -60,3 +60,29 @@
 .work__content-title {
   @apply text-[18px] text-black font-bold my-2;
 }
+
+/* ===== FEATURES SECTION ===== */
+.features__content {
+  @apply w-[300px] bg-white rounded-[1rem] overflow-hidden transition-all duration-400 cursor-pointer hover:shadow-[0_2px_12px_rgba(0,0,0,0.1)];
+}
+.features__content-data {
+  @apply p-6;
+}
+.features__content-price {
+  @apply text-[20px] text-black font-bold mb-2;
+}
+.features__content-text {
+  @apply text-[15px] text-grey mb-6;
+}
+.features__content-info {
+  @apply inline-flex items-center gap-6;
+}
+.features__content-wrapper {
+  @apply inline-flex items-center gap-2;
+}
+.features__content-icon {
+  @apply inline-flex text-[1.3rem] text-blue;
+}
+.features__content-span {
+  @apply text-[14px] text-grey;
+}
