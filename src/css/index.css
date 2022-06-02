@@ -55,3 +55,8 @@
 .header__link.active-link {
   @apply text-darkblue font-semibold;
 }
+
+/* ===== WORK SECTION ===== */
+.work__content-title {
+  @apply text-[18px] text-black font-bold my-2;
+}
