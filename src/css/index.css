@@ -117,3 +117,8 @@
 .footer__content-icon {
   @apply inline-flex p-2 bg-grey bg-opacity-20 rounded-[.5rem] text-[1.3rem] text-grey transition-all duration-400 hover:bg-blue hover:text-white;
 }
+
+/* ==== SCROLLUP SECTION ===== */
+.scrollup.scroll-action {
+  @apply bottom-12 opacity-100;
+}
