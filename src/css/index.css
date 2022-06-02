@@ -86,3 +86,14 @@
 .features__content-span {
   @apply text-[14px] text-grey;
 }
+
+/* ===== STATISTIC SECTION ===== */
+.statistic__content {
+  @apply text-center;
+}
+.statistic__content-number {
+  @apply text-[32px] text-black font-bold;
+}
+.statistic__content-text {
+  @apply text-[13px] text-grey;
+}
