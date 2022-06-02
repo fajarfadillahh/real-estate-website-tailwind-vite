@@ -122,3 +122,8 @@
 .scrollup.scroll-action {
   @apply bottom-12 opacity-100;
 }
+
+/* ==== ::SELECTION ===== */
+::selection {
+  @apply bg-darkblue bg-opacity-30 text-black;
+}
