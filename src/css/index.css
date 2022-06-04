@@ -13,7 +13,7 @@
     @apply pt-32 pb-16;
   }
   .section-title {
-    @apply text-[26px] text-darkblue font-black leading-title mb-4;
+    @apply text-[26px] text-darkblue font-black leading-title mb-4 sm:text-[32px];
   }
   .section-text {
     @apply text-[15px] text-grey leading-text mb-8;
