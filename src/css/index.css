@@ -16,12 +16,12 @@
     @apply text-[26px] text-darkblue font-black leading-title mb-4 sm:text-[32px];
   }
   .section-text {
-    @apply text-[15px] text-grey leading-text mb-8;
+    @apply text-[15px] text-grey leading-text mb-8 lg:text-[16px];
   }
 
   /* button class */
   .button {
-    @apply inline-flex justify-center items-center text-[15px] font-medium;
+    @apply inline-flex justify-center items-center text-[15px] font-medium lg:text-[16px];
   }
   .button-fill {
     @apply py-4 px-8 text-white bg-darkblue rounded-[1rem];
@@ -50,7 +50,7 @@
   }
 }
 .header__link {
-  @apply text-[15px] text-grey;
+  @apply text-[15px] text-grey lg:text-[16px];
 }
 .header__link.active-link {
   @apply text-darkblue font-semibold;
@@ -58,7 +58,7 @@
 
 /* ===== WORK SECTION ===== */
 .work__content-title {
-  @apply text-[18px] text-black font-bold my-2;
+  @apply text-[18px] text-black font-bold my-2 lg:text-[20px];
 }
 
 /* ===== FEATURES SECTION ===== */
@@ -72,7 +72,7 @@
   @apply text-[20px] text-black font-bold mb-2;
 }
 .features__content-text {
-  @apply text-[15px] text-grey mb-6;
+  @apply text-[15px] text-grey mb-6 lg:text-[16px];
 }
 .features__content-info {
   @apply inline-flex items-center gap-6;
@@ -84,7 +84,7 @@
   @apply inline-flex text-[1.3rem] text-blue;
 }
 .features__content-span {
-  @apply text-[14px] text-grey;
+  @apply text-[14px] text-grey lg:text-[16px];
 }
 
 /* ===== STATISTIC SECTION ===== */
@@ -95,7 +95,7 @@
   @apply text-[32px] text-black font-bold;
 }
 .statistic__content-text {
-  @apply text-[13px] text-grey;
+  @apply text-[13px] text-grey lg:text-[16px];
 }
 
 /* ===== FOOTER SECTION ===== */
@@ -106,10 +106,10 @@
   @apply flex flex-col gap-2;
 }
 .footer__content-link {
-  @apply text-[15px] text-grey hover:text-blue hover:underline;
+  @apply text-[15px] text-grey hover:text-blue hover:underline lg:text-[16px];
 }
 .footer__content-text {
-  @apply text-[15px] text-grey leading-text mb-6;
+  @apply text-[15px] text-grey leading-text mb-6 lg:text-[16px];
 }
 .footer__content-socials {
   @apply inline-flex items-center gap-6;

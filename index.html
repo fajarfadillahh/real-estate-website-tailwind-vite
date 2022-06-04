@@ -27,7 +27,7 @@
       id="header"
     >
       <div
-        class="header__container container h-24 flex justify-between items-center"
+        class="header__container container h-24 flex justify-between items-center lg:relative"
       >
         <a href="#" class="header__logo text-[20px] text-darkblue font-black"
           >Besnik.</a
@@ -38,7 +38,7 @@
           id="header-menu"
         >
           <ul
-            class="header__list flex flex-col gap-6 md:flex-row md:items-center"
+            class="header__list flex flex-col gap-6 md:flex-row md:items-center lg:absolute lg:left-[50%] lg:translate-x-[-50%]"
           >
             <li class="header__item">
               <a href="#" class="header__link active-link">Home</a>
@@ -77,9 +77,14 @@
     <main class="main overflow-hidden">
       <!-- ===== HOME SECTION ===== -->
       <section class="home section bg-lightblue" id="home">
-        <div class="home__container container grid gap-12">
-          <div class="home__data justify-self-center sm:w-[500px]">
-            <span class="home__subtitle block text-[15px] text-grey mb-2"
+        <div
+          class="home__container container grid gap-12 lg:grid-cols-2 lg:items-center"
+        >
+          <div
+            class="home__data justify-self-center sm:w-[500px] lg:w-auto lg:justify-self-start"
+          >
+            <span
+              class="home__subtitle block text-[15px] text-grey mb-2 lg:text-[16px]"
               >Welcome to Besnik Agency</span
             >
             <h1
@@ -100,7 +105,7 @@
           <img
             src="./src/img/home-img.png"
             alt=""
-            class="home__img justify-self-center sm:w-[500px]"
+            class="home__img justify-self-center sm:w-[500px] lg:w-auto"
           />
         </div>
       </section>
@@ -177,7 +182,7 @@
           </div>
 
           <div
-            class="work__group grid grid-cols-[repeat(2,_max-content)] justify-center gap-8 sm:gap-12 md:grid-cols-[repeat(3,_max-content)]"
+            class="work__group grid grid-cols-[repeat(2,_max-content)] justify-center gap-8 sm:gap-12 md:grid-cols-[repeat(3,_max-content)] lg:gap-24"
           >
             <div class="work__content">
               <img
@@ -351,8 +356,12 @@
 
       <!-- ===== ABOUT SECTION ===== -->
       <section class="about section">
-        <div class="about__container container grid gap-12">
-          <div class="about__data justify-self-center sm:w-[500px]">
+        <div
+          class="about__container container grid gap-12 lg:grid-cols-2 lg:items-center"
+        >
+          <div
+            class="about__data justify-self-center sm:w-[500px] lg:w-auto lg:order-2"
+          >
             <h1 class="about__title section-title">
               You've found a neighborhood you love.
             </h1>
@@ -369,7 +378,7 @@
           <img
             src="./src/img/about-img.png"
             alt=""
-            class="about__img justify-self-center sm:w-[500px]"
+            class="about__img justify-self-center sm:w-[500px] lg:w-auto"
           />
         </div>
       </section>
@@ -500,7 +509,9 @@
             >Besnik.</a
           >
 
-          <p class="footer__copy-rights text-[15px] text-grey leading-text">
+          <p
+            class="footer__copy-rights text-[15px] text-grey leading-text lg:text-[16px]"
+          >
             Copyright 2022, All rights reserved. | Made by Fajar Fadillah
           </p>
         </div>
